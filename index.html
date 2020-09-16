@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Largest Number|BIT GKP</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="screen and (max-width:1091px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width:780px)" href="phone1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Bree+Serif&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <h1 class="Main-H">SIMULATOR FOR FINDING THE LARGEST NUMBER AMONG THREE NUMBERS</h1>
+    <div id="container">
+
+        <div class=left>
+
+            <!--   -->
+
+            <section id="home">
+                <br>
+                <h1 class="h-primary"> </h1>
+                <div id="sis-box">
+                    <form  id="">
+
+                        <div>
+                            <label for="1st num"> Enter the 1st number: </label>
+                            <input id="n1" placeholder="1st number" onkeypress="handleChange1()"  type="number"><br />
+
+                        </div>
+                        <div>
+
+                            <label for="2nd num"> Enter the 2nd number: </label>
+                            <input id="n2" placeholder="2nd number" onkeyup="handleChange2()"   type="number"><br />
+
+                        </div>
+                        <div>
+                            <label for="3rd num"> Enter the 3rd number: </label>
+                            <input id="n3" placeholder="3rd number" onkeyup="handleChange3()" type="number"><br />
+                        </div>
+                        <div style="text-align: center;">
+                        <button type="button" id="next" class="btn" onclick="myFunction()">Next</button>
+                        </div>
+                       <div> 
+                           <label>Simulator Result: <p style="text-align: center; margin: 7px 24px;" id="out"></p></label>
+                    </div>
+                    <div  style="align-items: center;">
+                        <input type="reset" style="float: right;" onclick="location.reload()">
+                    </div>
+                   
+                    </form>
+                    
+            </div>
+            </section>
+        </div>
+        <div class=right>
+            <section id="right-home">
+                <h1 class="h-primary"> Program Of Largest Number <br><br> </h1>
+                <p class="para">
+                    <span class="step">1. #include&lt;stdio.h&gt;</span><br>
+                    <span class="step">2. int main(){</span><br>
+                    <span class="step">3. double n1,n2,n3;</span><br>
+                    <span class="step">4. printf("Enter the 1st number: ");</span><br>
+                    <span class="step">5. scanf("%lf",&n1);</span><br>
+                    <span class="step">6. printf("Enter the 2nd number: ");</span><br>
+                    <span class="step">7. scanf("%lf",&n2);</span><br>
+                    <span class="step">8. printf("Enter the 3rd number: ");</span><br>
+                    <span class="step">9. scanf("%lf",&n3);</span><br>
+                    <span class="step">10. if(n1&gt;=n2 && n1&gt;=n3)</span><br>
+                    <span class="step">11. printf("%f is largest number.",n1);</span><br>
+                    <span class="step">12. if(n2&gt;=n1 && n2&gt;=n3)</span><br>
+                    <span class="step">13. printf("%f is largest number.",n2);</span><br>
+                    <span class="step">14. if(n3&gt;=n1 && n3&gt;=n2)</span><br>
+                    <span class="step">15. printf("%f is largest number.",n3);</span><br>
+                    <span class="step">16. return 0;</span><br>
+                    <span class="step">17. }</span><br>
+                </p>
+            </section>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
