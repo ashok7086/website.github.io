@@ -1,0 +1,91 @@
+#sis-box input[type=number] {
+    font-family: 'Bree Serif', serif;
+    width: 47%;
+    padding: 0rem;
+    border-radius: 0px;
+    margin: 6px 24px;
+    margin: 2px 50px;
+}
+#out{
+    border: 2px solid brown;
+    font-size: 1.3rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    padding: 13px;
+    margin: 6px 24px;
+    margin: 2px 50px;
+    border-radius: 5px;
+    background-color: #0000009e;
+    color: white;
+    width: 47%;
+
+}
+#sis-box label {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2rem;
+    padding: 0px 45px;
+    margin: 0px;
+}
+
+.para {
+    text-align: left;
+    font-family: 'Bree Serif', serif;
+    font-size: 0.9rem;
+    padding: 1px;
+    margin: 1px 12px;
+}
+#home {
+    position: relative;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 240px 0px;
+    height: 359px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+}
+.h-primary {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.3rem;
+    padding: 4px;
+}
+.btn, input[type=reset] {
+    padding: 8px 26px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 33px;
+    font-size: 1.0rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.prt {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.3rem;
+    padding: 3px -17px;
+    /* height: 34px; */
+    margin: -20px 34px;}
+    
+    #right-home {
+        position: relative;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        padding: 224px 0px;
+        height: 393px;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Bree Serif', serif;
+    }
+
+#siresult {
+    border: 2px solid brown;
+    font-size: 1.3rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    padding: -4px;
+    margin: 24px 44px;
+    border-radius: 5px;
+    background-color: #0000009e;
+    color: white;
+}

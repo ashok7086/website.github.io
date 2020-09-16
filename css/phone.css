@@ -1,0 +1,23 @@
+#sis-box input[type=number] {
+    font-family: 'Bree Serif', serif;
+    width: 90%;
+    padding: 0.9rem;
+    border-radius: 12px;
+    margin: 6px 24px;
+    margin: 6px -28px;
+}
+
+#out{
+    border: 2px solid brown;
+    font-size: 1.3rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    padding: 13px;
+  /*  margin-top: 25px;*/
+    border-radius: 5px;
+    background-color: #0000009e;
+    color: white;
+    width: 90%;
+    margin: 6px 24px;
+    margin: 6px -28px;
+
+}

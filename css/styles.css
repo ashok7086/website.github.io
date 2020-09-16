@@ -1,0 +1,210 @@
+/* css reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Main-H{
+    
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.7rem;
+    color: white;
+    padding: 3px;
+    background-color: black;
+    font-family: 'Baloo Da 2', cursive;
+
+}
+/* left and right part  */
+#container{
+    min-height: 60vh;
+    display: flex;
+
+}
+.left{
+    width: 50vw;
+    background-color: #abc;
+    position: relative;
+    
+}
+.right{
+    width: 50vw;
+    background-color: #687;
+    
+
+}
+
+/* Home Section  */
+#home{
+    position: relative;
+   /* padding-top: 100px;*/
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 190px 0px;
+    height: 220px;
+    justify-content: center;
+   /* align-items: center;*/
+    font-family: 'Bree Serif', serif;
+
+}
+#home::before{
+    content: "";
+    background-color: #e5f7508c;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.6; 
+}
+#sis-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+#sis-box input[type=number]
+{   font-family: 'Bree Serif', serif;
+    width: 104%;
+    padding: 0.9rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    margin: 7px 24px;
+}
+
+#sis-box label {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.3rem;
+    
+}
+#home button[class=openbtn]{
+    left: 0%;
+   
+}
+
+/* Utility class */
+.h-primary{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.7rem;
+    padding: 2px 2px 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.para{
+    text-align: left;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.4rem;
+    padding: 0px,12px,12px,12px;
+    margin: 5px 13px;
+    }
+
+#out{
+    border: 2px solid brown;
+    font-size: 1.3rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    padding: 13px;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: #0000009e;
+    color: white;
+    width: 104%;
+
+}
+
+    button, input[type=reset]{
+    padding: 16px 38px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 20px 0px;
+    font-size: 1.0rem;
+    border-radius: 15px;
+    cursor: pointer;
+    }
+  
+
+  #right-home{
+    position: relative;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px 120px;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 10px;
+
+}
+
+
+#right-home::before{
+    content: "";
+    background-color: #e5f7508c;
+    
+   
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.6; 
+} 
+    
+
+    
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      .openbtn {
+          width: 15%;
+          float: left;
+        font-size: 10px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
+      @media screen and (max-height: 450px) {
+        .sidebar {padding-top: 15px;}
+        .sidebar a {font-size: 18px;}
+      }
+
+
+      .sidebar h2 {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      .sidebar p {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
